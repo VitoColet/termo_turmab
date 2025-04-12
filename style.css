@@ -1,0 +1,32 @@
+*
+{
+    font-size: 40px;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    place-content: center;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+#container
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+.item
+{
+    background-color: purple;
+    padding: 20px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+
+}
